@@ -1,0 +1,25 @@
+# robots.txt for Hygiene Experts Cleaning Services
+# https://hygienexperts.com.au/
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any in future)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://hygienexperts.com.au/sitemap.xml
+
+# Crawl-delay (optional, adjust based on server capacity)
+Crawl-delay: 10
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 30
+
+User-agent: SemrushBot
+Crawl-delay: 30
+
+User-agent: DotBot
+Crawl-delay: 30
